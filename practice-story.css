@@ -6,7 +6,7 @@ body {
 p, ul, ol, dl {
   font-size: 1.2rem;
   line-height: 1.7rem;
-  margin-bottom: 12x;
+  margin-bottom: 12px;
 }
 
 article {
@@ -42,7 +42,8 @@ h4 {
 .credit {
   font-family: Arial, Helvetica, sans-serif;
   float: right;
-  margin-top: 0em
+  margin-top: 0em;
+  margin-bottom: 1em;
 }
 
 span {
@@ -50,13 +51,14 @@ span {
 }
 
 blockquote {
-  border-left: gray 4px;
+  border-left: solid gray 4px;
   padding-left: 20px;
   margin-left: 30px;
 }
 
 ol {
   list-style-position: inside;
+  padding-left: 10%;
 }
 
 #comment-notes {
